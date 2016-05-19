@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=
+comment1.target=void\ WordWarp()
+comment1.text=\n\ Main\ method\ for\ WordWarp\n\ Prompts\ the\ user\ for\ a\ difficulty\ level\ and\ operates\ the\ \n\ loop\ the\ returns\ an\ updated\ gameBoard\ every\ time\ the\ user\ \n\ guesses\ a\ word\n
+comment2.params=
+comment2.target=void\ gameBoard()
+comment2.text=\n\ Creates\ the\ basic\ gameBoard\ template.\n
+comment3.params=s
+comment3.target=java.lang.String\ getSpaces(java.lang.String)
+comment4.params=
+comment4.target=boolean\ solved()
+comment4.text=\n\ Checks\ to\ see\ if\ the\ user\ has\ solved\ the\ board.\ Not\ implemented.\n
+comment5.params=
+comment5.target=Words\ start1()
+comment5.text=\n\ \ Creates\ the\ initial\ set\ of\ words\ that\ a\ user\ will\ be\ trying\ to\ solve\ based\ off\n\ \ of\ a\ randomly\ selected\ 5\ letter\ word\ in\ the\ dictionary.\n\ \ Difficulty\ Level\ 1\n
+comment6.params=
+comment6.target=Words\ start2()
+comment6.text=\n\ \ Creates\ the\ initial\ set\ of\ words\ that\ a\ user\ will\ be\ trying\ to\ solve\ based\ off\n\ \ of\ a\ randomly\ selected\ 6\ letter\ word\ in\ the\ dictionary.\n\ \ Difficulty\ Level\ 2\n
+comment7.params=
+comment7.target=Words\ start3()
+comment7.text=\n\ \ Creates\ the\ initial\ set\ of\ words\ that\ a\ user\ will\ be\ trying\ to\ solve\ based\ off\n\ \ of\ a\ randomly\ selected\ 7\ letter\ word\ in\ the\ dictionary.\n\ \ Difficulty\ Level\ 3\n
+numComments=8

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=strings
+comment0.target=MergeSorter(java.lang.String[])
+comment0.text=\n\ Constructor\ for\ the\ MergeSorter\ class\n
+comment1.params=
+comment1.target=void\ sortAlpha()
+comment1.text=\n\ \ \ \ Sorts\ the\ array\ managed\ by\ this\ merge\ sorter.\n
+comment2.params=first\ second
+comment2.target=void\ mergeAlpha(java.lang.String[],\ java.lang.String[])
+comment2.text=\n\ \ \ \ Merges\ two\ sorted\ arrays\ into\ the\ array\ managed\ by\ this\ merge\ sorter.\ \n\ \ \ \ @param\ first\ the\ first\ sorted\ array\n\ \ \ \ @param\ second\ the\ second\ sorted\ array\n
+comment3.params=
+comment3.target=void\ sortSize()
+comment3.text=\n\ \ \ \ Sorts\ the\ array\ managed\ by\ this\ merge\ sorter.\n
+comment4.params=first\ second
+comment4.target=void\ mergeSize(java.lang.String[],\ java.lang.String[])
+comment4.text=\n\ \ \ \ Merges\ two\ sorted\ arrays\ into\ the\ array\ managed\ by\ this\ merge\ sorter.\ \n\ \ \ \ @param\ first\ the\ first\ sorted\ array\n\ \ \ \ @param\ second\ the\ second\ sorted\ array\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ Returns\ a\ string\ representation\ of\ the\ MergeSorter\ Class\n
+numComments=6

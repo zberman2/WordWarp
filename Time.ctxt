@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=seconds
+comment0.target=Time(int)
+comment0.text=\r\n\ Creates\ a\ time\ object\ with\ a\ specified\ length\ of\ time\ in\ seconds\r\n\ \r\n\ @param\ int\ seconds\ is\ the\ time\ limit\ for\ the\ timer\r\n
+comment1.params=
+comment1.target=double\ getElapsedTime()
+comment1.text=\r\n\ Returns\ the\ number\ of\ seconds\ that\ have\ past\ \r\n\ since\ the\ beginning\ of\ the\ Timer\r\n\ @return\ (int)\ elapsed\ seconds\r\n
+comment2.params=
+comment2.target=void\ pause()
+comment3.params=
+comment3.target=java.lang.String\ getTimeLeftMessage()
+comment3.text=\r\n\ \ \ \ public\ String\ getPauseMessage(){\r\n\ \ \ \ \ \ \ \ double\ secondsLeft\ \=\ sec\ -\ getElapsedTime();\r\n\ \ \ \ \ \ \ \ String\ paused\ \=\ "\\fGame\ Paused.\ ";\r\n\ \ \ \ \ \ \ \ String\ secs\ \=\ "";\ String\ mins\ \=\ "";\ String\ and\ \=\ "";\r\n\ \ \ \ \ \ \ \ int\ remainingSec\ \=\ (int)secondsLeft\ %\ 60;\r\n\ \ \ \ \ \ \ \ int\ min\ \=\ (int)secondsLeft\ /\ 60;\r\n\ \ \ \ \ \ \ \ if\ (remainingSec\ \=\=\ 1)\r\n\ \ \ \ \ \ \ \ \ \ \ \ secs\ +\=\ remainingSec\ +\ "\ second\ ";\r\n\ \ \ \ \ \ \ \ else\ if\ (remainingSec\ >\ 1)\r\n\ \ \ \ \ \ \ \ \ \ \ \ secs\ +\=\ remainingSec\ +\ "\ seconds\ ";\r\n\ \ \ \ \ \ \ \ if\ (min\ \=\=\ 1)\r\n\ \ \ \ \ \ \ \ \ \ \ \ mins\ +\=\ min\ +\ "\ minute\ ";\r\n\ \ \ \ \ \ \ \ else\ if\ (min\ >\ 1)\r\n\ \ \ \ \ \ \ \ \ \ \ \ mins\ +\=\ min\ +\ "\ minutes\ ";\r\n\ \ \ \ \ \ \ \ if\ (remainingSec\ >\ 0\ &&\ min\ >\ 0)\r\n\ \ \ \ \ \ \ \ \ \ \ \ and\ +\=\ "&\ ";\r\n\ \ \ \ \ \ \ \ paused\ +\=\ mins;\ paused\ +\=\ and;\ paused\ +\=\ secs;\r\n\ \ \ \ \ \ \ \ paused\ +\=\ "left.\ \\nHit\ <Enter>\ to\ resume";\r\n\ \ \ \ \ \ \ \ return\ paused;\r\n\ \ \ \ }\r\n
+comment4.params=
+comment4.target=void\ resume()
+comment5.params=
+comment5.target=void\ stop()
+comment5.text=\r\n\ Sets\ the\ second\ value\ to\ 0\ and\ cancels\ \r\n\ the\ current\ timer\r\n
+comment6.params=
+comment6.target=double\ getSeconds()
+comment6.text=\r\n\ Accessor\ method\ that\ returns\ the\ value\ for\ seconds.\r\n@return\ seconds
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8

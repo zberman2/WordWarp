@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Dictionary()
+comment0.text=\n\ Constructor\ for\ the\ dictionary\ class\ that\ gets\ the\ text\ file\ to\ be\ used.\n\ Must\ make\ sure\ the\ directory\ is\ correct\ for\ the\ file.\n
+comment1.params=
+comment1.target=java.util.ArrayList\ dictionary()
+comment1.text=\n\ Returns\ an\ arrayList\ of\ strings\ containing\ all\ the\ words\ in\ the\ dictionary.\n
+numComments=2
